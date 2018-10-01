@@ -1,0 +1,20 @@
+.navbar{
+    background-color: #42D9C8;
+    border-color: #42D9C8;
+}
+
+.navbar .navbar-brand {
+    color: black;
+}
+
+.navbar .navbar-nav > li > a {
+    color:black;
+}
+.navbar.center .navbar-inner {
+    text-align: center;
+}
+
+.navbar.center .navbar-inner .nav {
+    display:inline-block;
+    float: none;
+}
