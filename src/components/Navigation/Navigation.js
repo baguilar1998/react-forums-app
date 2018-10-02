@@ -5,17 +5,17 @@ import './Navigation.css';
 
 const Navigation = (props)=>{
     return(
-        <nav className="navbar navbar-expand-md ">
-            <a className="navbar-brand" href="#"><b>Forums App</b></a>
+        <nav className="navbar navbar-expand-md underline fixed-top">
+            <Link  to="/" className="navbar-brand"><b>Forums App</b></Link>
+            <div className="col-sm-5 centered">
+                <input className="form-control" type="text" placeholder="Search"/>
+            </div>
             <ul className="navbar-nav ml-auto">
                 <li className="nav-item">
-                    <Link to='/' className="nav-link">Login</Link>
+                    <Link to='/login' className="nav-link">Login</Link>
                 </li>
                 <li className="nav-item">
-                    <Link to='/' className="nav-link" >Sign Up</Link>
-                </li>
-                <li className="nav-item">
-                    <Link to='/' className="nav-link">Link 3</Link>
+                    <Link to='/signup' className="nav-link" >Sign Up</Link>
                 </li>
             </ul>
         </nav>

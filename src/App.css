@@ -1,6 +1,9 @@
 *{
   font-family: 'Rubik';
 }
+.content{
+ margin-top:6.5rem;
+}
 .App {
   text-align: center;
 }

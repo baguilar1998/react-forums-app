@@ -1,20 +1,25 @@
 .navbar{
-    background-color: #42D9C8;
-    border-color: #42D9C8;
+    background-color: white;
+    border-color: white;
 }
-
 .navbar .navbar-brand {
-    color: black;
+    color: #42D9C8;
+    font-size:24pt;
 }
 
 .navbar .navbar-nav > li > a {
-    color:black;
+    color:#42D9C8;
 }
-.navbar.center .navbar-inner {
-    text-align: center;
-}
+.underline {
+    border-bottom: 8px solid #42D9C8;
+  }
 
-.navbar.center .navbar-inner .nav {
-    display:inline-block;
+.centered{
+    margin: 0 auto;
     float: none;
+}
+.form-control {
+    border: 0;
+    box-shadow: none;
+    border-bottom: 2px solid #42D9C8;
 }
