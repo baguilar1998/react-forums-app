@@ -1,13 +1,23 @@
 import React from 'react';
 import './ForumCard.css';
 const ForumCard = (props)=>{
-    return(
-        <div class="card">
-            <div class="card-body">
-                <h6 class="card-subtitle mb-2 text-muted">Posted By User</h6>
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    const {posts} = props;
+    const postList = posts.map(post=>{
+        return(
+        <div className="postCard">
+            <div className="card" key={post.id}>
+                <div className="card-body">
+                    <h6 className="card-subtitle mb-2 text-muted">Posted By User {post.id}</h6>
+                    <h5 className="card-title">{post.title}</h5>
+                    <p className="card-text">{post.body}</p>
+                </div>
             </div>
+        </div>
+        );
+    });
+    return(
+        <div >
+            {postList}
         </div>
     );
 }

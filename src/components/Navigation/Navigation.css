@@ -18,7 +18,7 @@
     margin: 0 auto;
     float: none;
 }
-.form-control {
+.search .form-control {
     border: 0;
     box-shadow: none;
     border-bottom: 2px solid #42D9C8;

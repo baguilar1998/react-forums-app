@@ -8,7 +8,9 @@ const Navigation = (props)=>{
         <nav className="navbar navbar-expand-md underline fixed-top">
             <Link  to="/" className="navbar-brand"><b>Forums App</b></Link>
             <div className="col-sm-5 centered">
-                <input className="form-control" type="text" placeholder="Search"/>
+                <div className="search">
+                <   input className="form-control" type="text" placeholder="Search"/>
+                </div>
             </div>
             <ul className="navbar-nav ml-auto">
                 <li className="nav-item">

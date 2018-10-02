@@ -1,11 +1,11 @@
-.card{
+.postCard .card{
     width:50rem;
     margin-top:1rem;
     margin-left:3rem;
     text-align: left;
     border: 2px solid #42D9C8;
 }
-.card-title{
+.postCard .card-title{
     color:#42D9C8;
     font-size:20pt;
     font-weight:bold;
