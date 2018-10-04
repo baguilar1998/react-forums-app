@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import './Login.css';
 
 class Login extends Component{
 
@@ -16,7 +17,24 @@ class Login extends Component{
 
     render(){
         return(
-            <p>Login Works</p>
+            <div className="login-form">
+                <div className="card">
+                    <div className="card-body">
+                        <form id="Login">
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="inputEmail" placeholder="Email Address"/>
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" id="inputPassword" placeholder="Password"/>
+                            </div>
+                            <div class="forgot">
+                                <a href="#">Forgot password?</a>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Login</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
         )
     }
 }

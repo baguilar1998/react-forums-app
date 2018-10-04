@@ -16,8 +16,10 @@ const ForumCard = (props)=>{
         );
     });
     return(
-        <div >
-            {postList}
+        <div class="row">
+            <div className="col-lg-12">
+                {postList}
+            </div>
         </div>
     );
 }

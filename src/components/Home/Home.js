@@ -35,7 +35,6 @@ class Home extends Component{
                         <div class="card text-center">
                             <div class="card-body">
                                 <Link to='/create-post'><button type="button" class="btn btn-success">Create A Post</button></Link>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             </div>
                         </div>
                     </div>
