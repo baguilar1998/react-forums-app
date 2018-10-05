@@ -1,23 +1,18 @@
-.login-form .form-control {
+.signup-form .form-control {
     background: #f7f7f7 none repeat scroll 0 0;
     border: 1px solid #d4d4d4;
     border-radius: 4px;
     font-size: 14px;
     line-height: 50px;
   }
-login-form .form-group {
+signup-form .form-group {
     margin-bottom:10px;
   }
-.login-form{ 
+.signup-form{ 
     text-align:center;
     margin-top:5rem;
 }
-.forgot a {
-    color: #777777;
-    font-size: 14px;
-    text-decoration: underline;
-}
-.login-form  .btn.btn-primary {
+.signup-form  .btn.btn-primary {
     background: #42D9C8 none repeat scroll 0 0;
     border-color: #42D9C8;
     color: #ffffff;
@@ -27,22 +22,13 @@ login-form .form-group {
     line-height: 50px;
     padding: 0;
 }
-.forgot {
-    text-align: left; margin-bottom:30px;
-}
-.botto-text {
-    color: #ffffff;
-    font-size: 14px;
-    margin: auto;
-}
-.login-form .btn.btn-primary.reset {
+.signup-form .btn.btn-primary.reset {
     background: #42D9C8 none repeat scroll 0 0;
 }
-.login-form .card{
+.signup-form .card{
     width:35rem;
 }
-
-.login-form h1{
+.signup-form h1{
     font-weight:bold;
     font-size:22pt;
     color:#42D9C8;
