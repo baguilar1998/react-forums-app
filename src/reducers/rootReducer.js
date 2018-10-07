@@ -1,5 +1,5 @@
 const initState = {
-    testData:''
+    recentPosts:[]
 }
 const rootReducer = (state = initState, action) =>{
     return state;
